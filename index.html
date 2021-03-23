@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab - youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>  Registration Form </title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="container">
+    <div class="title"> Task Registration  </div>
+    <div class="content">
+      <form action="connection.php" method="POST">
+        <div class="user-details">
+
+
+          <div class="input-box">
+            <span class="details"><b>Email</b></span>
+            <input type="text" placeholder="Enter your email" required name="email"> 
+          </div>
+          <div class="input-box">
+            <span class="details"><b>Phone Number</b></span>
+            <input type="text" placeholder="Enter your number" required name="number">
+          </div>
+          <div class="input-box">
+            <span class="details"><b>Password</b></span>
+            <input type="text" placeholder="Enter your password" required name="password">
+          </div>
+          <div class="input-box">
+            <span class="details"><b>Confirm Password</b></span>
+            <input type="text" placeholder="Confirm your password" required name="confirm">
+          </div>
+        </div>
+        <div class="">
+          <label for="city-select"><b>Choose a city:</b></label>
+
+          <select name="city" id="pet-select">
+              <option value="">--Please choose a city--</option>
+              <option value="m">Mumbai,Maharashtra</option>
+              <option value="p">Pune, Maharashtra</option>
+              <option value="n">Noida, UP</option>
+              <option value="h">Hyderabad, Telengana</option>
+              <option value="b">Bangalore, Karnataka</option>
+              <option value="c">Chennai, Tamil Nadu</option>
+          </select>
+        </div>
+        <div class="button">                       
+          <input type="submit" name="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>
